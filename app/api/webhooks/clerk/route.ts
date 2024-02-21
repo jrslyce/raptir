@@ -39,7 +39,7 @@ export async function POST(req: Request) {
 
   let evt: WebhookEvent;
 
-  // Verify the payload with the headers
+  // Verify the payload with the headers mmmkay
   try {
     evt = wh.verify(body, {
       "svix-id": svix_id,
