@@ -5,6 +5,7 @@ export default authMiddleware({
   publicRoutes: ['/anyone-can-visit-this-route'],
   // Routes that can always be accessed, and have
   // no authentication information
+    publicRoutes: ['api/webhooks/clerk'],
   ignoredRoutes: ['/no-auth-in-this-route'],
 });
  
